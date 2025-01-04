@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Dark mode</title>
+        <style>
+            body{
+                padding: 25px;
+                background-color: white;
+                color: blue;
+                font-size: 25px;
+            }
+            .dark-mode{
+                background-color:black;
+                color: red;
+            }
+            button:hover{
+                background-color: blueviolet;
+                border-radius: ;
+                cursor: pointer;
+                color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse id doloribus explicabo,
+             quidem temporibus ex harum molestias possimus obcaecati fugiat maiores quasi porro 
+             pariatur. Omnis distinctio veritatis possimus animi optio tempore vel esse fugit 
+             ducimus laborum alias nemo expedita, totam sunt ad! Nam consequatur id natus, vel, 
+             incidunt in enim distinctio quae reiciendis dolor harum tempora ipsa aliquid 
+             maiores.</p>
+        <button onclick="myfunction()">Toggle Dark Mode </button>
+        <script>
+            function myfunction(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</html>
